@@ -20,7 +20,7 @@ public class Cheers {
                 }
 
                 else {
-                        System.out.println("Give me a " + c + ": " + c + "!");
+                        System.out.println("Give me a  " + c + ": " + c + "!");
                 }
             }
 
