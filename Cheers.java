@@ -15,7 +15,7 @@ public class Cheers {
 
             for (int i = 0; i < strUpper.length(); i++) {
                 char c = strUpper.charAt(i);
-                if (anLetters.indexOf(c) == -1) {
+                if (anLetters.indexOf(c) != -1) {
                         System.out.println("Give me an " + c + ": " + c + "!");
                 }
 
